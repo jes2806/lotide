@@ -7,7 +7,4 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-assertEqual("Lighthouse Labs", "Lighthouse Labs");
-assertEqual("Yes", "Ya");
-assertEqual(1, 1);
-assertEqual(1, -1);
+module.exports = assertEqual;
