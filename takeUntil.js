@@ -9,6 +9,8 @@ const takeUntil = function(array, callback) {
   return solution;
 };
 
+module.exports = takeUntil;
+/*
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
     return false;
@@ -41,3 +43,4 @@ console.log(results2);
 
 assertArraysEqual(results1, [1, 2, 5, 7, 2]);
 assertArraysEqual(results2, ["I've", "been", "to", "Hollywood"]);
+*/

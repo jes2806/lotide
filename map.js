@@ -1,5 +1,4 @@
-// map function will take in 2 arguments An array to map and a callback function
-const words = ["pineapple", "anime", "water", "princess", "puppies"];
+// const words = ["pineapple", "anime", "water", "princess", "puppies"];
 const map = function(array, callback) {
   const results = [];
   for (let item of array) {
@@ -8,6 +7,8 @@ const map = function(array, callback) {
   return results;
 };
 
+module.exports = map;
+/*
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
     return false;
@@ -39,3 +40,4 @@ assertArraysEqual(results3, ['😀😍', '❤️😍']);
 const simple = [true, false];
 const results4 = map(simple, simps => simps + "true");
 assertArraysEqual(results4, [(true + "true"), (false + "true")]);
+*/
